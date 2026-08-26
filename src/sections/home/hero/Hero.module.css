@@ -1,0 +1,137 @@
+.hero {
+    width: 100vw;
+    height: 100vh;
+    background: #000000;
+    overflow: hidden;
+}
+
+.carrousel {
+    
+    position: relative;
+
+    width:100vw;
+    height: 100vh;
+
+    overflow: hidden;
+}
+
+.cTrack {
+    
+    display: flex;
+
+    width: 100%;
+    height: 100%;
+
+    transition: transform 0.5s ease-in-out;
+}
+
+.prev img, .next img {
+    width: 25px;
+    height: 25px;
+}
+
+.prev, .next {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+
+    width: 50px;
+    height: 50px;
+
+    border: none;
+    border-radius: 50%;
+
+    background: rgba(255, 162, 0, .2);
+
+    cursor: pointer;
+
+    z-index: 10;
+
+}
+
+.prev {
+    left: 20px;
+}
+
+.next {
+    right: 30px;
+}
+
+
+@media (max-width: 1024px) {
+
+    .prev,
+    .next {
+        width: 45px;
+        height: 45px;
+    }
+
+    .prev img,
+    .next img {
+        width: 22px;
+        height: 22px;
+    }
+
+    .prev {
+        left: 15px;
+    }
+
+    .next {
+        right: 15px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .hero {
+        margin-top: 3rem;
+        height: 95dvh;
+    }
+
+    .prev,
+    .next {
+        width: 40px;
+        height: 40px;
+    }
+
+    .prev img,
+    .next img {
+        width: 20px;
+        height: 20px;
+    }
+
+    .prev {
+        left: 10px;
+    }
+
+    .next {
+        right: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .prev,
+    .next {
+        width: 35px;
+        height: 35px;
+    }
+
+    .prev img,
+    .next img {
+        width: 17px;
+        height: 17px;
+    }
+
+    .prev {
+        left: 8px;
+    }
+
+    .next {
+        right: 8px;
+    }
+}

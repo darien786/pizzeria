@@ -1,0 +1,182 @@
+
+
+
+.service {
+    width: 100%;
+    min-height: 100vh;
+    background: #FF9608;
+    padding: 4rem 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 90%;
+    max-width: 1320px;
+    margin: 0 auto;
+}
+
+.title {
+    font-size: 3rem;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 5px #000000;
+}
+
+.services {
+    width: 100%;
+    margin: 3rem auto 0;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 4rem;
+}
+
+.schedule,
+.shopping,
+.payment {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.schedule img,
+.shopping img,
+.payment img {
+    padding: 2rem;
+    width: 300px;
+    max-width: 100%;
+    height: auto;
+}
+
+.sTitle {
+    color: white;
+    font-size: 2.5rem;
+    text-shadow: 2px 2px 5px #000000;
+}
+
+.sDescription {
+    color: white;
+    font-size: 1.8rem;
+    text-shadow: 2px 2px 5px #000000;
+}
+
+
+/* =========================
+   TABLET
+   ========================= */
+
+@media (max-width: 992px) {
+
+    .service {
+        padding: 4rem 1rem;
+    }
+
+    .services {
+        gap: 2rem;
+    }
+
+    .schedule img,
+    .shopping img,
+    .payment img {
+        width: 220px;
+        padding: 1rem;
+    }
+
+    .sTitle {
+        font-size: 2rem;
+    }
+
+    .sDescription {
+        font-size: 1.3rem;
+    }
+}
+
+
+/* =========================
+   CELULAR
+   ========================= */
+
+@media (max-width: 768px) {
+
+    .service {
+        min-height: auto;
+        padding: 3rem 1rem;
+    }
+
+    .container {
+        width: 100%;
+    }
+
+    .title {
+        font-size: 2.3rem;
+    }
+
+    .services {
+        flex-direction: column;
+        gap: 3rem;
+        margin-top: 2rem;
+    }
+
+    .schedule,
+    .shopping,
+    .payment {
+        width: 100%;
+    }
+
+    .schedule img,
+    .shopping img,
+    .payment img {
+        width: 220px;
+        padding: 1rem;
+    }
+
+    .sTitle {
+        font-size: 1.8rem;
+    }
+
+    .sDescription {
+        max-width: 320px;
+        font-size: 1.3rem;
+        line-height: 1.5;
+    }
+}
+
+
+/* =========================
+   CELULAR PEQUEÑO
+   ========================= */
+
+@media (max-width: 400px) {
+
+    .service {
+        padding: 2.5rem .8rem;
+    }
+
+    .title {
+        font-size: 2rem;
+    }
+
+    .services {
+        gap: 2.5rem;
+    }
+
+    .schedule img,
+    .shopping img,
+    .payment img {
+        width: 190px;
+    }
+
+    .sTitle {
+        font-size: 1.6rem;
+    }
+
+    .sDescription {
+        max-width: 280px;
+        font-size: 1rem;
+    }
+}

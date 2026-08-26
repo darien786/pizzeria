@@ -1,0 +1,154 @@
+.footer {
+    width: 100%;
+    height: fit-content;
+    padding: .5rem;
+    background: #040000;
+}
+
+.container {
+    
+    background: #040000;
+}
+
+.logo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .5rem;
+    padding: 1rem 0;
+    font-size: 1.6rem;
+}
+
+.logo p {
+    color: white;
+}
+
+.logo span {
+    color: #FF9806;
+}
+
+.contact {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 1rem 0;
+}
+
+.phone,
+.mail {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 1.1rem;
+    gap: 1rem;
+}
+
+.phone img,
+.mail img {
+    cursor: pointer;
+}
+
+.socialContainer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    padding: 1rem 0;
+}
+
+.line {
+    flex: 1;
+    height: 2px;
+    background-color: #f5a400;
+}
+
+.socials {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.socials img {
+    cursor: pointer;
+}
+
+.autor {
+    width: 100%;
+    background: #FF9806;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: .7rem;
+    color: white;
+    font-size: 1rem;
+    text-align: center;
+}
+
+
+@media (max-width: 768px) {
+
+    .container {
+        width: 100%;
+    }
+
+    /* Logo */
+
+    .logo {
+        padding: 1.2rem 0;
+    }
+
+    .logo img {
+        width: 60px;
+    }
+
+    .logo p {
+        font-size: 1.4rem;
+    }
+
+
+    /* Contacto */
+
+    .contact {
+        flex-direction: column;
+        gap: 1.2rem;
+        padding: 1rem 0 1.5rem;
+    }
+
+    .phone,
+    .mail {
+        width: 100%;
+        font-size: 1rem;
+        gap: .8rem;
+    }
+
+    .phone img,
+    .mail img {
+        width: 28px;
+    }
+
+
+    /* Redes */
+
+    .socialContainer {
+        gap: 1rem;
+    }
+
+    .socials {
+        gap: 1rem;
+    }
+
+    .socials img {
+        width: 28px;
+    }
+
+
+    /* Copyright */
+
+    .autor {
+        font-size: .85rem;
+        padding: .8rem .5rem;
+    }
+}
