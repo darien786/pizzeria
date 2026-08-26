@@ -17,7 +17,7 @@ export default function Slide({ product, onPause, onResume}) {
                 </button>
             </div>
             <div className={styles.image} >
-                <img src={product.src} />
+                <img src={product.src} alt={`Imagen de ${product.title}`}/>
             </div>
         </div>
     )
