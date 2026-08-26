@@ -40,7 +40,7 @@ export default function Hero() {
 
                 return prev + 1;
             });
-        }, 4000);
+        }, 3000);
 
         return () => clearInterval(interval);
 
