@@ -30,8 +30,8 @@ export default function Navbar() {
                 <div className={`${styles.menu} ${menuOpen ? styles.active : ""}`}>
                     <ul>
                         <li><a href="#" onClick={closeMenu}>Inicio</a></li>
-                        <li><a href="#" onClick={closeMenu}>Productos</a></li>
                         <li><a href="#" onClick={closeMenu}>Promociones</a></li>
+                        <li><a href="#" onClick={closeMenu}>Productos</a></li>
                         <li><a href="#" onClick={closeMenu}>Contacto</a></li>
                     </ul>
                 </div>

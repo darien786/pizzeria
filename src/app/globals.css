@@ -23,9 +23,6 @@ body {
     background: white;
 }
 
-
-/* Scrollbar */
-
 body::-webkit-scrollbar {
     width: 10px;
 }

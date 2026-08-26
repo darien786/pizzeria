@@ -1,7 +1,7 @@
 "use client"
 import { useState, useEffect } from "react";
 import CardPromotion from "@/components/cards/CardPromotion"
-import styles from "@/sections/home/promotions/Products.module.css"
+import styles from "./Products.module.css"
 
 export default function Products() {
 
@@ -65,7 +65,7 @@ export default function Products() {
                 <div>
                     <img
                         className={styles.arrowLeft}
-                        src="./img/icons/left-arrow.png"
+                        src="./img/icons/left-arrow.webp"
                         alt="Anterior"
                         width={70}
                         onClick={previousPromotions}
@@ -95,7 +95,7 @@ export default function Products() {
                 <div >
                     <img
                         className={styles.arrowRight}
-                        src="./img/icons/right-arrow.png"
+                        src="./img/icons/right-arrow.webp"
                         alt="Siguiente"
                         width={70}
                         onClick={nextPromotions}

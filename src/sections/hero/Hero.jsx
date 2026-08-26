@@ -1,7 +1,7 @@
 "use client"
-import styles from "@/sections/home/hero/Hero.module.css"
 import Slide from "@/components/slide/Slide"
 import { useState, useEffect } from "react";
+import styles from "./Hero.module.css"
 
 export default function Hero() {
 
@@ -92,7 +92,7 @@ export default function Hero() {
                     }}
                 >
 
-                    <img src="./img/icons/left-arrow.png" />
+                    <img src="./img/icons/left-arrow.webp" alt="Anterior" />
                 </button>
                 <button
                     className={styles.next}
@@ -104,7 +104,7 @@ export default function Hero() {
                     }}
                 >
 
-                    <img src="./img/icons/right-arrow.png" />
+                    <img src="./img/icons/right-arrow.webp" alt="Siguiente" />
                 </button>
                 <div
                     className={styles.cTrack}
