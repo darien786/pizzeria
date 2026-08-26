@@ -38,6 +38,10 @@
     font-size: 1.3rem;
 }
 
+.logo img {
+    width: 50px;
+}
+
 .logo span {
     color: #FF9806;
 }

@@ -6,7 +6,7 @@ export default function CardPromotion({image, name, price}){
         <div className={styles.card}>
             <div className={styles.container}>
                 <div className={styles.imag}>
-                    <img src={image} alt=""/>
+                    <img src={image} alt={`Imagen de ${name}`}/>
                 </div>
                 <div className={styles.information}>
                     <div className={styles.name}>

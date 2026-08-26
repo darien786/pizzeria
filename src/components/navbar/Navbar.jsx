@@ -14,7 +14,7 @@ export default function Navbar() {
         <nav className={styles.navbar}>
             <div className={styles.container}>
                 <div className={styles.logo}>
-                    <img src="./img/logo-pizza.jpg" alt="Logo Pizzas Flow" width={50}/>
+                    <img src="./img/logo-pizza.webp" alt="Logo Pizzas Flow"/>
                     <p>Pizzas <span>Flow</span></p>
                 </div>
                 <button

@@ -48,31 +48,31 @@ export default function Hero() {
 
     const products = [
         {
-            src: "./img/slides/slide-pizza.jpg",
+            src: "./img/slides/slide-pizza.webp",
             title: "Pizzas",
             description: "Pepperoni, Hawaiana, 3 Quesos y Salchicha.",
             price: "$95.00"
         },
         {
-            src: "./img/slides/slide-hotdog.jpg",
+            src: "./img/slides/slide-hotdog.webp",
             title: "Hot Dogs",
             description: "Clásicos, Hawaianos y con Tocino",
             price: "3 x $55.00"
         },
         {
-            src: "./img/slides/slide-burger.jpg",
+            src: "./img/slides/slide-burger.webp",
             title: "Hamburguesas",
             description: "Clásicas, Hawaianas y Mega Especiales.",
             price: "$55.00"
         },
         {
-            src: "./img/slides/slide-frappe.jpg",
+            src: "./img/slides/slide-frappe.webp",
             title: "Frappe's",
             description: "Oreo, Moca, Café, Clicle, Fresa, Mazapan y Nutella.",
             price: "$55.00"
         },
         {
-            src: "./img/slides/slide-alitas.jpg",
+            src: "./img/slides/slide-alitas.webp",
             title: "Alitas",
             description: "BBQ, Mango Habanero, Bufalo y Valentina.",
             price: "$60.00"
