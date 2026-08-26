@@ -1,6 +1,7 @@
 import styles from "@/components/slide/Slide.module.css"
+import Image from "next/image"
 
-export default function Slide({ product, onPause, onResume}) {
+export default function Slide({ product, onPause, onResume }) {
 
     return (
         <div className={styles.slide}>
@@ -10,14 +11,20 @@ export default function Slide({ product, onPause, onResume}) {
                 <p className={styles.price}>{product.price}</p>
             </div>
             <div className={styles.options}>
-                <button 
+                <button
                     onMouseEnter={onPause}
                     onMouseLeave={onResume}>
-                        Ver opciones
+                    Ver opciones
                 </button>
             </div>
             <div className={styles.image} >
-                <img src={product.src} alt={`Imagen de ${product.title}`}/>
+                <Image
+                    src={product.src}
+                    alt={`Imagen de ${product.title}`}
+                    fill
+                    priority
+                    fetchPriority="high"
+                />
             </div>
         </div>
     )
