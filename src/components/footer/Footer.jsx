@@ -16,7 +16,7 @@ export default function Footer() {
                     </div>
                     <div className={styles.mail}>
                         <img src="./svg/mail.svg" alt="Icono correo" width={35}/>
-                        <p>pizzasflow@gmail.com</p>
+                        <p>pizzashub@gmail.com</p>
                     </div>
                 </div>
                 <div className={styles.socialContainer}>
