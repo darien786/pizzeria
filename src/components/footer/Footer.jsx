@@ -6,8 +6,8 @@ export default function Footer() {
         <footer>
             <div className={styles.container}>
                 <div className={styles.logo}>
-                    <img src="./img/logo-pizza.webp" alt="Logo pizzas flow" width={70} />
-                    <p>Pizzas <span>Flow</span></p>
+                    <img src="./img/icons/pizza.webp" alt="Logo pizzas flow" width={50} />
+                    <p>Pizzas <span>Hub</span></p>
                 </div>
                 <div className={styles.contact}>
                     <div className={styles.phone}>

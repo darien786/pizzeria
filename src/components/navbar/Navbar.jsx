@@ -47,8 +47,8 @@ export default function Navbar() {
         <nav className={styles.navbar}>
             <div className={styles.container}>
                 <div className={styles.logo}>
-                    <img src="./img/logo-pizza.webp" alt="Logo Pizzas Flow" />
-                    <p>Pizzas <span>Flow</span></p>
+                    <img src="./img/icons/pizza.webp" alt="Logo Pizzas Flow" />
+                    <p>Pizzas <span>Hub</span></p>
                 </div>
                 <button
                     className={`${styles.hamburger} ${menuOpen ? styles.open : ""}`}

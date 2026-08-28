@@ -39,7 +39,8 @@
 }
 
 .logo img {
-    width: 50px;
+    width: 40px;
+    padding: .3rem;
 }
 
 .logo span {
