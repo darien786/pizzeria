@@ -10,7 +10,7 @@ const lobster = Lobster({
 });
 
 export const metadata = {
-  title: "Pizzas Flow",
+  title: "Pizzas Hub",
   description: "Sabor que te hace volver"
 }
 
