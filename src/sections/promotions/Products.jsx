@@ -59,7 +59,7 @@ export default function Products() {
     };
 
     return (
-        <section className={styles.products}>
+        <section id="promociones" className={styles.products}>
             <p className={styles.title}>Promociones</p>
             <div className={styles.container}>
                 <div>

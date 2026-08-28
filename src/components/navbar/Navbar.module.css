@@ -67,6 +67,10 @@
     border-bottom: 1px solid #FF9806;
 }
 
+.menu ul li a.selected {
+    color: #FF9806;
+    border-bottom: 1px solid #FF9806;
+}
 
 /* =========================
    HAMBURGUESA

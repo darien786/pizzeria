@@ -80,7 +80,7 @@ export default function Hero() {
     ];
 
     return (
-        <section className={styles.hero}>
+        <section id="inicio" className={styles.hero}>
             <div className={styles.carrousel} >
                 <button
                     className={styles.prev}

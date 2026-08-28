@@ -3,7 +3,7 @@ import styles from "./Menu.module.css"
 export default function Menu(){
 
     return(
-        <section className={styles.menu}>
+        <section id="menu" className={styles.menu}>
             <div className={styles.container}>
                 <p className={styles.title}>Menú</p>
                 <div className={styles.buttons}>

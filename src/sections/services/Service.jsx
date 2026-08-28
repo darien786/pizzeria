@@ -2,7 +2,7 @@ import styles from "./Service.module.css"
 
 export default function Service(){
     return(
-        <section className={styles.service}>
+        <section id="servicios" className={styles.service}>
             <div className={styles.container}>
                 <p className={styles.title}>Servicios</p>
                 <div className={styles.services}>
