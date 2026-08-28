@@ -86,7 +86,7 @@ export default function Navbar() {
                                 className={active === "menu" ? styles.selected : ""}
                                 onClick={closeMenu}
                             >
-                                Productos
+                                Menu
                             </a>
                         </li>
                         <li>
