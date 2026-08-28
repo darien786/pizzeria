@@ -34,7 +34,7 @@
     position: absolute;
     z-index: 1;
 
-    top: 25%;
+    top: 40%;
     left: 10%;
 
     transform: translateY(-50%);
@@ -73,7 +73,7 @@
     position: absolute;
     z-index: 1;
 
-    top: 70%;
+    top: 80%;
     left: 10%;
 
     transform: translateY(-50%);
